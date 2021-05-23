@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+<div class="container" id="container">
+    <form>
+    <div class="row bg-dark p-2">
+        <div class="col-md-12">
+            <h2 class="text-center text-light">GET COVID CASE DETAILS BY COUNTRY NAME</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="text-center bg-light">
+            <img class=" col-8 " src="https://www.kindpng.com/picc/m/573-5735813_world-map-silhouette-countries-hd-png-download.png" alt="World_map">       
+          </div>
+    </div>
+    <div class="row mt-4 p-5" id="get">
+        <div class="col-5" style="padding-bottom: 10px;">
+            <div class="card p-10" style="width : 25rem">
+                <div class="card-header bg-dark text-white">
+                  GET HERE
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col">
+                            <h5 class="card-title ">ENTER YOUR COUNTRY NAME </h5>
+                            <span class="card-text text-muted">(Name Should Be Like (ex: Albania,Burkina Faso))</span>
+                            <br>
+                            <input type="text" class="mt-3" id="text">
+                            <button type="button" class="btn btn-primary" onclick="getCountry()">Press Here</button>
+                          
+                          
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</form>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>
+
